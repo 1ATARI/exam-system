@@ -25,8 +25,6 @@ class StoreCourseRequest extends FormRequest
             'name'=>['required','string','min:3' ,'max:255','unique:courses'],
             'description'=>['required','string' ,'min:1','max:1000'],
             'image'=>'image',
-            'user_id'=>['required','exists:users,id'],
-
         ];
     }
 }
