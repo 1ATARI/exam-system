@@ -15,7 +15,7 @@ Create Course
         <div class="col-md-12 col-sm-12 ">
             <div class="x_panel">
                 <div class="x_title">
-                    <h2>Create User </h2>
+                    <h2>Create Course </h2>
                     @include('includes.errors')
 
                     <div class="clearfix"></div>
